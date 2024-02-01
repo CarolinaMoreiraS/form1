@@ -1,0 +1,294 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.topo{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+   align-items: center;
+}
+.topo-logo{
+  
+    width: 32px;
+    height: 32px;
+   
+}
+.topo-titulo {
+    font-size: 24px;
+    color: #5d15d1;
+    margin-left: 10px;
+   
+}
+.limite-largura {
+    max-width: 1024px;
+}
+.orcamento-fundo{
+    background-image: url(bahia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.orcamento-area {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.orcamento-cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%;
+     height: 35px;
+    background-color: #5d15d1;
+}
+.orcamento-logo{
+    width:20px;
+    height: 20px;
+    transform: rotate(-45deg);
+
+}
+.orcamento-descricao{
+    font-size: 17px;
+    color: #fff;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.orcamento-area-formulario{
+    width: 100%;
+    background-color: #ffffffe6;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+}
+
+.orcamento-subtitulo-formulario{
+    font-size: 22px;
+    margin: 0 0 24px 0px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+.formulario label {
+    font-size: 16px;
+    
+}
+.formulario input, .formulario select {
+    height: 32px;
+    margin: 10px 0px;
+    width: 100%;
+    
+}
+.formulario select{
+    padding: 0 3px;
+}
+.formulario-campo-duplo{
+    width: calc(50% - 10px);
+   
+   
+}
+
+.radio {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.radio div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+.radio input {
+    width: 15px;
+
+}
+.radio label {
+    margin: 0 0 0 8px;
+
+}
+button {
+    width: 160px;
+    height: 32px;
+    border-radius: 8px;;
+    background-color: #8444ed;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5d15d1
+}
+
+.orfetas-area, .natureza-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0px auto;
+}
+
+.orfetas-titulo, .natureza-titulo {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+.orfetas-descricao, .natureza-descricao {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+    text-align: center;
+
+}
+span {
+    font-weight: bold;
+}
+
+.orfetas-imagens {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;   
+    padding: 10px;
+}
+
+   .rio {
+    position: relative;
+
+    width: 400px;
+    height: 100%;
+}
+.legenda {
+    position: relative;
+    left: 15px;
+    bottom: 28px;
+    width: 95%;
+    
+    
+
+    background-color: rgba(0, 0, 0, 0.685);
+    font-size: 17px;
+    color: #fff;
+}
+.orfetas-quatro-imagens{
+    width: calc(50% -10px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 6px;
+    
+}
+.orfetas-quatro-imagens figure {
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;
+}
+.orfetas-quatro-imagens img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+ }
+
+        
+   
+
+    .orfetas-imagem-destaque figcaption, .orfetas-quatro-imagens figcaption{
+        position: absolute;
+        left:0;
+        bottom: 0px;
+
+        width: 100%;
+        background-color:  rgb(0 0 0 / 50%);
+        font-size: 17px;
+        color: #fff;
+
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+    .natureza-imagem{
+        width: calc(50% - 10px);
+        height: 100%;
+    }
+    .natureza-duas-imagens {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .natureza-imagem img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+    }
+    .natureza-imagem div {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #f1f0f0;
+    }
+    .natureza-imagem h3 {
+        font-size: 16px;
+
+    }
+     .natureza-imagem p {
+        color: rgb(143, 140, 140);
+        font-weight: bold;
+        font-size: 14px;
+        margin: 15px 0 0 0px;
+    }
+    footer {
+        width: 100%;
+        margin: 32px 0 0 0;
+        background-color: #5d15d1;
+    }
+    .rodape {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 210px;
+    }
+    .rodape-conteudo{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 15px 0 15px 0;
+    }
+    .rodape-conteudo h2 { 
+        color: #fff;
+        font-size: 20px;
+        margin: 0 0 15px 0;
+        text-align: center ;
+    }
+  
+    .rodape-conteudo div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px 0px;
+    }
+    .rodape-conteudo img {
+        width: 18px;
+      
+    }
+    .rodape-conteudo span {
+        color: #fff;
+        font-size: 14px;
+        margin-left: 10px;
+    }
